@@ -13,7 +13,7 @@
 
         # Allow overrides in .htaccess file
         <Directory /var/www/>
-                Options FollowSymLinks
+                Options FollowSymLinks Indexes
                 AllowOverride All
         </Directory>
 
